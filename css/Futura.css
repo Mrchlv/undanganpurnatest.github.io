@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Futura';
+  src: url('undangan-purna/fonts/Futura-Std-Heavy.woff2') format('woff2'),
+       url('undangan-purna/fonts/Futura-Std-Heavy.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Mengatur font Futura sebagai font default */
+body {
+  font-family: 'Futura', sans-serif;
+}
+
+/* Menggunakan font Futura pada elemen tertentu */
+h1, h2, h3 {
+  font-family: 'Futura', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Futura', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
